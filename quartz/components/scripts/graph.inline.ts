@@ -197,11 +197,19 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const color = (d: NodeData) => {
     const isCurrent = d.id === slug
     if (isCurrent) {
-      return computedStyleMap["--secondary"]
-    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
-      return computedStyleMap["--tertiary"]
+      return "#E6A817"  // dourado = página atual
+    } else if (d.id.startsWith("tags/")) {
+      return "#9b59b6"  // roxo = tags
+    } else if (visited.has(d.id)) {
+      return "#01696F"  // verde teal = visitado
+    } else if (d.id.includes("Candidatos")) {
+      return "#4FC3C8"  // ciano = cidades/candidatos
+    } else if (d.id.includes("An%C3%A1lises") || d.id.includes("Análises")) {
+      return "#E6A817"  // dourado = análises
+    } else if (d.id.includes("AuraCamp")) {
+      return "#9b59b6"  // roxo = sistema
     } else {
-      return computedStyleMap["--gray"]
+      return "#014D52"  // verde escuro = padrão
     }
   }
 

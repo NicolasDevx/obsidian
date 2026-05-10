@@ -1,3 +1,10 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Cores dos nós do grafo
+.graph {
+    --node-color: #01696F;
+    --node-color-visited: #E6A817;
+    --node-color-active: #E6A817;
+    --link-color: #014D52;
+    --link-color-active: #E6A817;
+}
