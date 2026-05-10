@@ -1,6 +1,17 @@
 ---
-title: Welcome to Quartz
+title: Assessoria Eleitoral
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# 🗳 Assessoria Eleitoral
+
+Bem-vindo à base de conhecimento eleitoral.
+
+## Candidatos
+- [[Dra. Cristiany — Perfil]]
+
+## Análises
+- [[Eleições 2022 — Painel Geral]]
+- [[Análise — Oportunidades 2026]]
+
+## Sistema
+- [[AuraCamp — Sobre o Sistema]]
